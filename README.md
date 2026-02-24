@@ -41,6 +41,15 @@ VoiceVibe — это кроссплатформенное Flutter‑прилож
 - **Логирование и диагностика**
   - Логи через `logger` для инициализации сервисов, работы аудио и распознавания.
   - Обработка ошибок загрузки моделей Vosk и чтения `AssetManifest.json`.
+ 
+## Скриншоты 
+![Screenshot_2026-02-24-13-06-44-14_0b4563ecd1755e0a3e41fa162ebd9c17](https://github.com/user-attachments/assets/4b6b9816-1c63-4f21-a1a6-10f437291a80)
+![Screenshot_2026-02-24-13-06-47-21_0b4563ecd1755e0a3e41fa162ebd9c17](https://github.com/user-attachments/assets/f7425aae-b8bc-4f12-b857-d7e5164dca71)
+![Screenshot_2026-02-24-13-07-06-43_0b4563ecd1755e0a3e41fa162ebd9c17](https://github.com/user-attachments/assets/707ad724-f309-44ff-8349-619029314790)
+![Screenshot_2026-02-24-13-07-16-53_0b4563ecd1755e0a3e41fa162ebd9c17](https://github.com/user-attachments/assets/efccef38-bebb-44c3-b6b8-70d88da99a17)
+![Screenshot_2026-02-24-13-08-58-38_04037198b9c383a6ec289f72a6a022f6](https://github.com/user-attachments/assets/c0ca84f5-d6b4-452d-b37e-05292359850f)
+![Screenshot_2026-02-24-13-07-28-63_0b4563ecd1755e0a3e41fa162ebd9c17](https://github.com/user-attachments/assets/43cdb5a1-5e1b-410c-8699-5e900b1d202b)
+![Screenshot_2026-02-24-13-07-24-96_0b4563ecd1755e0a3e41fa162ebd9c17](https://github.com/user-attachments/assets/5ef3c2f5-b3bd-4a53-9d1e-759ecdaf8d00)
 
 ## Архитектура
 
