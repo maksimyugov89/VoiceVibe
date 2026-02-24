@@ -1,5 +1,4 @@
-#  <img width="1024" height="1024" alt="app_icon" src="https://github.com/user-attachments/assets/1fc85214-3e02-426f-ba3b-a8efbf7f6bfc" />
-VoiceVibe
+# <img width="64" height="74" alt="logo" src="https://github.com/user-attachments/assets/1fc85214-3e02-426f-ba3b-a8efbf7f6bfc" /> VoiceVibe
 
 VoiceVibe — это кроссплатформенное Flutter‑приложение для **голосовых заметок с распознаванием речи**.  
 Оно позволяет быстро записывать голос, автоматически превращать его в текст, просматривать заметки в ленте и календаре, редактировать и экспортировать.
