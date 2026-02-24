@@ -1,0 +1,672 @@
+C:\Users\Despa\voicevibe>flutter clean         
+Deleting build...                                                  993ms
+Deleting .dart_tool...                                              12ms
+Deleting ephemeral...                                                1ms
+Deleting Generated.xcconfig...                                       0ms
+Deleting flutter_export_environment.sh...                            0ms
+Deleting ephemeral...                                                2ms
+Deleting ephemeral...                                                0ms
+Deleting ephemeral...                                                3ms
+Deleting .flutter-plugins-dependencies...                            0ms
+
+C:\Users\Despa\voicevibe>flutter pub get
+Resolving dependencies... 
+Downloading packages... 
+  _fe_analyzer_shared 88.0.0 (89.0.0 available)
+  analyzer 8.1.1 (8.2.0 available)
+  archive 3.6.1 (4.0.7 available)
+  build_runner 2.7.2 (2.8.0 available)
+  built_value 8.11.2 (8.12.0 available)
+  characters 1.4.0 (1.4.1 available)
+  code_builder 4.10.1 (4.11.0 available)
+  flutter_native_splash 2.4.4 (2.4.6 available)
+  flutter_sound_platform_interface 9.28.0 (10.3.8 available)
+  flutter_sound_web 9.28.0 (10.3.8 available)
+  image 4.3.0 (4.5.4 available)
+  leak_tracker 11.0.1 (11.0.2 available)
+  lottie 2.7.0 (3.3.2 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  mime 1.0.6 (2.0.0 available)
+  permission_handler 11.4.0 (12.0.1 available)
+  permission_handler_android 12.1.0 (13.0.1 available)
+  pool 1.5.1 (1.5.2 available)
+  share_plus 11.1.0 (12.0.0 available)
+  test_api 0.7.6 (0.7.7 available)
+Got dependencies!
+21 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+
+C:\Users\Despa\voicevibe>flutter run -d RMX3853
+Resolving dependencies... 
+Downloading packages... 
+  _fe_analyzer_shared 88.0.0 (89.0.0 available)
+  analyzer 8.1.1 (8.2.0 available)
+  archive 3.6.1 (4.0.7 available)
+  build_runner 2.7.2 (2.8.0 available)
+  built_value 8.11.2 (8.12.0 available)
+  characters 1.4.0 (1.4.1 available)
+  code_builder 4.10.1 (4.11.0 available)
+  flutter_native_splash 2.4.4 (2.4.6 available)
+  flutter_sound_platform_interface 9.28.0 (10.3.8 available)
+  flutter_sound_web 9.28.0 (10.3.8 available)
+  image 4.3.0 (4.5.4 available)
+  leak_tracker 11.0.1 (11.0.2 available)
+  lottie 2.7.0 (3.3.2 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.16.0 (1.17.0 available)
+  mime 1.0.6 (2.0.0 available)
+  permission_handler 11.4.0 (12.0.1 available)
+  permission_handler_android 12.1.0 (13.0.1 available)
+  pool 1.5.1 (1.5.2 available)
+  share_plus 11.1.0 (12.0.0 available)
+  test_api 0.7.6 (0.7.7 available)
+Got dependencies!
+21 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Launching lib\main.dart on RMX3853 in debug mode...
+Picked up JAVA_TOOL_OPTIONS: -Dstdout.encoding=UTF-8 -Dstderr.encoding=UTF-8
+Running Gradle task 'assembleDebug'...                             18,4s
+√ Built build\app\outputs\flutter-apk\app-debug.apk
+Installing build\app\outputs\flutter-apk\app-debug.apk...           4,8s
+D/FlutterJNI(18490): Beginning load of flutter...
+D/FlutterJNI(18490): flutter (null) was loaded normally!
+I/flutter (18490): [IMPORTANT:flutter/shell/platform/android/android_context_vk_impeller.cc(62)] Using the Impeller rendering backend (Vulkan).
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   new FlutterSoundRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:231:13)
+I/flutter (18490): │ #1   new AudioService (package:voicevibe/services/audio_service.dart:9:41)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ctor: FlutterSoundRecorder()
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   new FlutterSoundPlayer (package:flutter_sound/public/flutter_sound_player.dart:199:13)
+I/flutter (18490): │ #1   new AudioService (package:voicevibe/services/audio_service.dart:10:37)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ctor: FlutterSoundPlayer()
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   ThemeService.getThemeMode (package:voicevibe/services/theme_service.dart:16:17)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Загружена тема: Темная
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.openRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:477:13)
+I/flutter (18490): │ #1   AudioService.init (package:voicevibe/services/audio_service.dart:18:20)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> openRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._openAudioSession (package:flutter_sound/public/flutter_sound_recorder.dart:486:13)
+I/flutter (18490): │ #1   FlutterSoundRecorder.openRecorder.<anonymous closure> (package:flutter_sound/public/flutter_sound_recorder.dart:479:11)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ---> _openAudioSession
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._openAudioSession (package:flutter_sound/public/flutter_sound_recorder.dart:510:17)
+I/flutter (18490): │ #1   FlutterSoundRecorder.openRecorder.<anonymous closure> (package:flutter_sound/public/flutter_sound_recorder.dart:479:11)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 Resetting flutter_sound Recorder Plugin
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.openRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:481:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- openAudioSession
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.openRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:278:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:155:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ---> openRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.openRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:289:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:155:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 <--- openRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._openAudioSession (package:flutter_sound/public/flutter_sound_recorder.dart:526:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 <--- _openAudioSession
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundPlayer._openPlayer (package:flutter_sound/public/flutter_sound_player.dart:728:13)     
+I/flutter (18490): │ #1   FlutterSoundPlayer.openPlayer.<anonymous closure> (package:flutter_sound/public/flutter_sound_player.dart:722:11)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> _openPlayer
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundPlayer._openPlayer (package:flutter_sound/public/flutter_sound_player.dart:741:15)     
+I/flutter (18490): │ #1   FlutterSoundPlayer.openPlayer.<anonymous closure> (package:flutter_sound/public/flutter_sound_player.dart:722:11)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 Resetting flutter_sound Player Plugin
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundPlayer.openPlayerCompleted (package:flutter_sound/public/flutter_sound_player.dart:282:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundPlayer.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_player.dart:84:21)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ---> openPlayerCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundPlayer.openPlayerCompleted (package:flutter_sound/public/flutter_sound_player.dart:297:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundPlayer.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_player.dart:84:21)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 <--- openPlayerCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundPlayer._openPlayer (package:flutter_sound/public/flutter_sound_player.dart:761:13)     
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- _openPlayer
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init (package:voicevibe/services/speech_service.dart:24:17)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition initialized successfully
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init (package:voicevibe/services/speech_service.dart:29:17)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Russian locales available: ru_RU
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init (package:voicevibe/services/speech_service.dart:33:17)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Has microphone permission: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   _MyAppState._loadNotesFromDisk (package:voicevibe/main.dart:95:17)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Загружено заметок: 11
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Syncing files to device RMX3853...                                 149ms
+
+Flutter run key commands.
+r Hot reload. 
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on RMX3853 is available at: http://127.0.0.1:65392/GcS7VVhCuYM=/
+The Flutter DevTools debugger and profiler on RMX3853 is available at:
+http://127.0.0.1:9100?uri=http://127.0.0.1:65392/GcS7VVhCuYM=/
+D/OplusScrollToTopManager(18490): com.example.voicevibe/com.example.voicevibe.MainActivity,This com.android.internal.policy.DecorView{505f374 V.E...... R....... 0,0-1264,2780 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to true
+D/ProfileInstaller(18490): Installing profile for com.example.voicevibe
+D/callGcSupression(18490): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+D/callGcSupression(18490): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+D/ScrollOptim [SceneManager](18490): updateCurrentActivity: mCurrentActivityName=null, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+D/VRI[MainActivity](18490): dispatchAppVisibility visible:false
+D/VRI[MainActivity](18490): visibilityChanged oldVisibility=true newVisibility=false
+D/callGcSupression(18490): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+D/VRI[MainActivity](18490): setWindowStopped stopped:true
+I/SurfaceView(18490): 160907584 surfaceDestroyed
+D/BufferQueueProducer(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#1(BLAST Consumer)1](id:483a00000001,api:1,p:18490,c:18490) disconnect: api 1
+D/BufferQueueProducer(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#1(BLAST Consumer)1](id:483a00000001,api:0,p:-1,c:18490) disconnect: api -1
+D/HWUI    (18490): RenderProxy::destroy: this=0xb40000734c1e9800, mContext=0xb4000072dd421940
+D/HWUI    (18490): SkiaOpenGLPipeline::setSurface: this=0xb400007350444500, surface=NULL
+D/BufferQueueProducer(18490): [VRI[MainActivity]#0(BLAST Consumer)0](id:483a00000000,api:1,p:18490,c:18490) disconnect: api 1
+D/BLASTBufferQueue(18490): [VRI[MainActivity]#0](f:0,a:1) destructor()
+D/BufferQueueConsumer(18490): [VRI[MainActivity]#0(BLAST Consumer)0](id:483a00000000,api:0,p:-1,c:18490) disconnect
+D/ViewRootImplExtImpl(18490): wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=361, relayoutAsync=false, flags=0, newFlags=23658496, residentWS=false, title=com.example.voicevibe/com.example.voicevibe.MainActivity
+D/VRI[MainActivity](18490): relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1264, 2780), mLastSurfaceSize:Point(1264, 2780), mWidth:1264, mHeight:2780, requestedWidth:1264, requestedHeight:2780, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][1264,2780] display=[0,0][1264,2780] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+D/BLASTBufferQueue(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#1](f:0,a:2) destructor()
+D/BufferQueueConsumer(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#1(BLAST Consumer)1](id:483a00000001,api:0,p:-1,c:18490) disconnect
+D/VRI[MainActivity](18490): onFocusEvent false
+D/OplusScrollToTopManager(18490): com.example.voicevibe/com.example.voicevibe.MainActivity,This com.android.internal.policy.DecorView{505f374 I.E...... R.....ID 0,0-1264,2780 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to false
+D/VRI[MainActivity](18490): dispatchAppVisibility visible:true
+D/ColorModeChangeItem(18490): preExecute mColorMode=0
+D/callGcSupression(18490): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+D/VRI[MainActivity](18490): setWindowStopped stopped:false
+D/ScrollOptim [SceneManager](18490): updateCurrentActivity: mCurrentActivityName=com.example.voicevibe.MainActivity, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+D/ActivityThread(18490): ComponentInfo{com.example.voicevibe/com.example.voicevibe.MainActivity} checkFinished=false 2
+D/ResourcesManagerExtImpl(18490): applyConfigurationToAppResourcesLocked app.getDisplayId() return callback.displayId:0      
+D/ViewRootImplExtImpl(18490): wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=361, relayoutAsync=false, flags=0, newFlags=23658496, residentWS=false, title=com.example.voicevibe/com.example.voicevibe.MainActivity
+D/InsetsController(18490): setRequestedVisibleTypes, mRequestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, requestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, visibleTypes: navigationBars, type: 2, call: android.view.InsetsController.controlAnimationUnchecked:1477 android.view.InsetsController.applyAnimation:2191 android.view.InsetsController.applyAnimation:2161 android.view.InsetsController.onControlsChanged:1163 android.view.ViewRootImpl.relayoutWindow:10348 android.view.ViewRootImpl.performTraversals:4143 android.view.ViewRootImpl.doTraversal:3305 android.view.ViewRootImpl$TraversalRunnable.run:11487 android.view.Choreographer$CallbackRecord.run:1621 android.view.Choreographer$CallbackRecord.run:1630
+D/VRI[MainActivity](18490): relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1264, 2780), mLastSurfaceSize:Point(1264, 2780), mWidth:1264, mHeight:2780, requestedWidth:1264, requestedHeight:2780, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:true, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][1264,2780] display=[0,0][1264,2780] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+W/VRI[MainActivity](18490): updateBlastSurfaceIfNeeded, surfaceSize:Point(1264, 2780), lastSurfaceSize:Point(1264, 2780), format:-3, blastBufferQueue:null
+D/BufferQueueConsumer(18490): [](id:483a00000002,api:0,p:-1,c:18490) connect: controlledByApp=false
+D/BufferQueueProducer(18490): [VRI[MainActivity]#2(BLAST Consumer)2](id:483a00000002,api:1,p:18490,c:18490) connect: api=1 producerControlledByApp=true
+D/BufferQueueConsumer(18490): [](id:483a00000003,api:0,p:-1,c:18490) connect: controlledByApp=false
+I/SurfaceView(18490): 160907584 visibleChanged -- surfaceCreated
+D/BufferQueueProducer(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#3(BLAST Consumer)3](id:483a00000003,api:1,p:18490,c:18490) connect: api=1 producerControlledByApp=true
+W/qdgralloc(18490): GetSize: Pixel format: 0x3b is not supported by gralloc
+W/qdgralloc(18490): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
+E/Gralloc4(18490): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(18490): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 2
+E/AHardwareBuffer(18490): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+W/qdgralloc(18490): GetSize: Pixel format: 0x3b is not supported by gralloc
+W/qdgralloc(18490): gralloc failed to allocate buffer for size 0 format 59 AWxAH 1x1 usage 2816
+E/Gralloc4(18490): isSupported(1, 1, 59, 1, ...) failed with 7
+E/GraphicBufferAllocator(18490): Failed to allocate (4 x 4) layerCount 1 format 59 usage b00: 2
+E/AHardwareBuffer(18490): GraphicBuffer(w=4, h=4, lc=1) failed (Unknown error -2), handle=0x0
+D/SurfaceView(18490): 160907584 handleSyncNoBuffer
+W/InteractionJankMonitor(18490): Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.voicevibe
+I/SurfaceControl(18490):  setExtendedRangeBrightness sc=Surface(name=com.example.voicevibe/com.example.voicevibe.MainActivity)/@0x337cd9c,currentBufferRatio=1.0,desiredRatio=1.0
+D/SurfaceView(18490): 160907584 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128    
+D/SurfaceView(18490): 160907584 clearSurfaceViewPort mCornerRadius 0.0
+D/BLASTBufferQueue(18490): [VRI[MainActivity]#2](f:0,a:1) acquireNextBufferLocked size=1264x2780 mFrameNumber=1 applyTransaction=true mTimestamp=24323915938896(auto) mPendingTransactions.size=0 graphicBufferId=79413945303075 transform=0
+D/VRI[MainActivity](18490): Received frameCommittedCallback lastAttemptedDrawFrameNum=1 didProduceBuffer=true syncBuffer=false
+D/ViewRootImplExtImpl(18490): setMaxDequeuedBufferCount: 2
+D/callGcSupression(18490): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+W/VRI[MainActivity](18490): handleResized abandoned!
+D/BLASTBufferQueue(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#3](f:0,a:1) acquireNextBufferLocked size=1264x2780 mFrameNumber=1 applyTransaction=true mTimestamp=24323931438896(auto) mPendingTransactions.size=0 graphicBufferId=79413945303070 transform=0
+D/VRI[MainActivity](18490): draw finished. seqId=0
+D/SurfaceView(18490): 160907584 finishedDrawing
+D/SurfaceView(18490): 160907584 performDrawFinished mAttachedToWindow true
+D/SurfaceView(18490): 160907584 dispatchDraw mDrawFinished true isAboveParent false (mPrivateFlags & PFLAG_SKIP_DRAW) 128    
+D/SurfaceView(18490): 160907584 clearSurfaceViewPort mCornerRadius 0.0
+D/VRI[MainActivity](18490): onFocusEvent true
+D/InsetsController(18490): setRequestedVisibleTypes, mRequestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, requestedVisibleTypes: statusBars navigationBars captionBar systemGestures mandatorySystemGestures tappableElement displayCutout windowDecor systemOverlays, visibleTypes: navigationBars, type: 2, call: android.view.InsetsController.notifyFinished:1879 android.view.InsetsAnimationControlImpl.applyChangeInsets:357 android.view.InsetsController.lambda$new$3:924 android.view.InsetsController.$r8$lambda$meqKUiuVHZJFS86fhQQzBBmdABw:0 android.view.InsetsController$$ExternalSyntheticLambda11.run:0 android.view.Choreographer$CallbackRecord.run:1621 android.view.Choreographer$CallbackRecord.run:1630 android.view.Choreographer.doCallbacks:1154 android.view.Choreographer.doFrame:1040 android.view.Choreographer$FrameDisplayEventReceiver.run:1604
+D/OplusScrollToTopManager(18490): com.example.voicevibe/com.example.voicevibe.MainActivity,This com.android.internal.policy.DecorView{505f374 V.E...... R....... 0,0-1264,2780 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to true
+D/OplusSystemUINavigationGestureExtImpl(18490): regionString = null
+D/OplusSystemUINavigationGestureExtImpl(18490): regionString = null
+D/OplusInputMethodManagerInternal(18490): get inputMethodManager extension: com.android.internal.view.IInputMethodManager$Stub$Proxy@24c7885
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+W/WindowOnBackDispatcher(18490): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(18490): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:19:39)
+I/flutter (18490): │ #1   SpeechToText._onNotifyStatus (package:speech_to_text/speech_to_text.dart:730:22)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition status: listening
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening (package:voicevibe/services/speech_service.dart:81:15)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech listening started successfully
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0):
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0):
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем тест
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем тест Привет
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем тест Привет
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:19:39)
+I/flutter (18490): │ #1   SpeechToText._onNotifyStatus (package:speech_to_text/speech_to_text.dart:730:22)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition status: notListening
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем тест Привет
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем тест Привет
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: -1.0): начинаем тест Привет
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening.<anonymous closure> (package:voicevibe/services/speech_service.dart:66:19)
+I/flutter (18490): │ #1   SpeechToText._notifyResults (package:speech_to_text/speech_to_text.dart:685:23)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Recognized (confidence: 0.88905936): начинаем тест Привет тест микрофона
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:19:39)      
+I/flutter (18490): │ #1   SpeechToText._onNotifyStatus (package:speech_to_text/speech_to_text.dart:730:22)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition status: done
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.stopListening (package:voicevibe/services/speech_service.dart:105:15)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition successful: "начинаем тест Привет тест микрофона"
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.stopListening (package:voicevibe/services/speech_service.dart:108:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Final recognized text: начинаем тест Привет тест микрофона
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+W/WindowOnBackDispatcher(18490): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(18490): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   AudioService.startRecording (package:voicevibe/services/audio_service.dart:51:15)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 🎤 Начинаем запись: /data/user/0/com.example.voicevibe/app_flutter/note_1758736643085.aac
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.startRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:757:13)
+I/flutter (18490): │ #1   AudioService.startRecording (package:voicevibe/services/audio_service.dart:53:22)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> startRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:947:13)
+I/flutter (18490): │ #1   FlutterSoundRecorder.startRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:782:11)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> stopRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:957:13)
+I/flutter (18490): │ #1   FlutterSoundRecorder.stopRecorder.<anonymous closure> (package:flutter_sound/public/flutter_sound_recorder.dart:950:17)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> _stopRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stop (package:flutter_sound/public/flutter_sound_recorder.dart:903:13)       
+I/flutter (18490): │ #1   FlutterSoundRecorder._stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:969:17)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> _stop
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:344:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:135:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ---> stopRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:356:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:135:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 <---- stopRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stop (package:flutter_sound/public/flutter_sound_recorder.dart:918:13)       
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- _stop
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:973:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- _stopRecorder :
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:952:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- stopRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._startRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:824:13)
+I/flutter (18490): │ #1   FlutterSoundRecorder.startRecorder.<anonymous closure> (package:flutter_sound/public/flutter_sound_recorder.dart:791:13)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> _startRecorder.
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/MediaRecorder(18490): constructor+ 0xb40000734c2ecc80
+D/MediaRecorder(18490): constructor- 0xb40000734c2ecc80
+E/CheckPermission(18490): media_record-code= 24
+D/MediaRecorder(18490): reset+ 0xb40000734c2ecc80
+D/MediaRecorder(18490): reset- 0xb40000734c2ecc80
+D/MediaRecorder(18490): init+ 0xb40000734c2ecc80
+E/CheckPermission(18490): media_record-code= 2
+E/CheckPermission(18490): media_record-code= 23
+D/MediaRecorder(18490): init- 0xb40000734c2ecc80
+E/CheckPermission(18490): media_record-code= 12
+E/CheckPermission(18490): media_record-code= 13
+E/CheckPermission(18490): media_record-code= 15
+E/CheckPermission(18490): media_record-code= 20
+E/CheckPermission(18490): media_record-code= 20
+E/CheckPermission(18490): media_record-code= 20
+E/CheckPermission(18490): media_record-code= 16
+D/MediaRecorder(18490): prepare+ 0xb40000734c2ecc80
+E/CheckPermission(18490): media_record-code= 9
+D/MediaRecorder(18490): prepare- 0xb40000734c2ecc80
+D/MediaRecorder(18490): start+ 0xb40000734c2ecc80
+E/CheckPermission(18490): media_record-code= 8
+D/MediaRecorder(18490): start- 0xb40000734c2ecc80
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.startRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:328:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:129:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ---> startRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.startRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:337:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:129:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 <--- startRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._startRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:898:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- _startRecorder.
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.startRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:806:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- startRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   AudioService.startRecording (package:voicevibe/services/audio_service.dart:61:15)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 ✅ Запись успешно начата
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   VoiceNotesScreenState._toggleRecording (package:voicevibe/screens/voice_notes_screen.dart:169:17)  
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Запись аудио началась: /data/user/0/com.example.voicevibe/app_flutter/note_1758736643085.aac
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:19:39)
+I/flutter (18490): │ #1   SpeechToText._onNotifyStatus (package:speech_to_text/speech_to_text.dart:730:22)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition status: listening
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.startListening (package:voicevibe/services/speech_service.dart:81:15)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech listening started successfully
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:19:39)
+I/flutter (18490): │ #1   SpeechToText._onNotifyStatus (package:speech_to_text/speech_to_text.dart:730:22)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition status: notListening
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:19:39)      
+I/flutter (18490): │ #1   SpeechToText._onNotifyStatus (package:speech_to_text/speech_to_text.dart:730:22)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Speech recognition status: done
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:14:19)      
+I/flutter (18490): │ #1   SpeechToText._onNotifyError (package:speech_to_text/speech_to_text.dart:700:21)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ ⛔ Speech recognition error: error_speech_timeout
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.init.<anonymous closure> (package:voicevibe/services/speech_service.dart:16:21)      
+I/flutter (18490): │ #1   SpeechToText._onNotifyError (package:speech_to_text/speech_to_text.dart:700:21)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ ! Speech timeout - возможно, слишком тихо говорите или плохой микрофон
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.stopListening (package:voicevibe/services/speech_service.dart:103:15)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ ! Speech recognition returned empty or too short result
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   SpeechService.stopListening (package:voicevibe/services/speech_service.dart:108:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Final recognized text: Речь не распознана
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:947:13)
+I/flutter (18490): │ #1   AudioService.stopRecording (package:voicevibe/services/audio_service.dart:74:33)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> stopRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:957:13)
+I/flutter (18490): │ #1   FlutterSoundRecorder.stopRecorder.<anonymous closure> (package:flutter_sound/public/flutter_sound_recorder.dart:950:17)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> _stopRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stop (package:flutter_sound/public/flutter_sound_recorder.dart:903:13)       
+I/flutter (18490): │ #1   FlutterSoundRecorder._stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:969:17)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:---> _stop
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+E/CheckPermission(18490): media_record-code= 26
+D/MediaRecorder(18490): stop+ 0xb40000734c2ecc80
+E/CheckPermission(18490): media_record-code= 7
+D/MediaRecorder(18490): stop- 0xb40000734c2ecc80
+D/MediaRecorder(18490): reset+ 0xb40000734c2ecc80
+D/MediaRecorder(18490): reset- 0xb40000734c2ecc80
+D/MediaRecorder(18490): release+ 0xb40000734c2ecc80
+E/CheckPermission(18490): media_record-code= 1
+D/MediaRecorder(18490): release- 0xb40000734c2ecc80
+D/MediaRecorder(18490): destructor+ 0xb40000734c2ecc80
+D/MediaRecorder(18490): destructor- 0xb40000734c2ecc80
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:344:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:135:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 ---> stopRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorderCompleted (package:flutter_sound/public/flutter_sound_recorder.dart:356:13)
+I/flutter (18490): │ #1   MethodChannelFlutterSoundRecorder.channelMethodCallHandler.<anonymous closure> (package:flutter_sound_platform_interface/method_channel_flutter_sound_recorder.dart:135:24)
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 <---- stopRecorderCompleted: true
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stop (package:flutter_sound/public/flutter_sound_recorder.dart:918:13)       
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- _stop
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder._stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:973:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- _stopRecorder : /data/user/0/com.example.voicevibe/app_flutter/note_1758736643085.aac        
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   FlutterSoundRecorder.stopRecorder (package:flutter_sound/public/flutter_sound_recorder.dart:952:13)
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 🐛 FS:<--- stopRecorder
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   VoiceNotesScreenState._toggleRecording (package:voicevibe/screens/voice_notes_screen.dart:84:17)   
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 ✅ Запись остановлена. Путь: /data/user/0/com.example.voicevibe/app_flutter/note_1758736643085.aac   
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   VoiceNotesScreenState._toggleRecording (package:voicevibe/screens/voice_notes_screen.dart:85:17)   
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 📝 Распознанный текст: "Речь не распознана"
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   _MyAppState._onNoteAdded (package:voicevibe/main.dart:132:13)
+I/flutter (18490): │ #1   VoiceNotesScreenState._toggleRecording (package:voicevibe/screens/voice_notes_screen.dart:92:29)   
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 Заметка добавлена: Речь не распознана
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+I/flutter (18490): │ #0   VoiceNotesScreenState._toggleRecording (package:voicevibe/screens/voice_notes_screen.dart:94:19)   
+I/flutter (18490): │ #1   <asynchronous suspension>
+I/flutter (18490): ├┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄
+I/flutter (18490): │ 💡 💾 Заметка успешно сохранена и добавлена в список
+I/flutter (18490): └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+W/WindowOnBackDispatcher(18490): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher(18490): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+D/ViewRootImplExtImpl(18490): the up motion event handled by client, just return
+D/callGcSupression(18490): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+D/VRI[MainActivity](18490): onFocusEvent false
+D/callGcSupression(18490): java.lang.NullPointerException: Attempt to invoke virtual method 'java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[])' on a null object reference
+D/ScrollOptim [SceneManager](18490): updateCurrentActivity: mCurrentActivityName=null, isOptEnable=true, isAnimAheadEnable=true, isFrameInsertEnable=true, InsertNum=1, isEnabledForScrollChanged=false
+D/VRI[MainActivity](18490): setWindowStopped stopped:true
+I/SurfaceView(18490): 160907584 surfaceDestroyed
+D/BufferQueueProducer(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#3(BLAST Consumer)3](id:483a00000003,api:1,p:18490,c:18490) disconnect: api 1
+D/BufferQueueProducer(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#3(BLAST Consumer)3](id:483a00000003,api:0,p:-1,c:18490) disconnect: api -1
+D/BLASTBufferQueue(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#3](f:0,a:1) destructor()   
+D/BufferQueueConsumer(18490): [SurfaceView[com.example.voicevibe/com.example.voicevibe.MainActivity]#3(BLAST Consumer)3](id:483a00000003,api:0,p:-1,c:18490) disconnect
+D/HWUI    (18490): RenderProxy::destroy: this=0xb40000734c1e9800, mContext=0xb4000072dd421940
+D/HWUI    (18490): SkiaOpenGLPipeline::setSurface: this=0xb400007350444500, surface=NULL
+D/BufferQueueProducer(18490): [VRI[MainActivity]#2(BLAST Consumer)2](id:483a00000002,api:1,p:18490,c:18490) disconnect: api 1
+D/BLASTBufferQueue(18490): [VRI[MainActivity]#2](f:0,a:2) destructor()
+D/BufferQueueConsumer(18490): [VRI[MainActivity]#2(BLAST Consumer)2](id:483a00000002,api:0,p:-1,c:18490) disconnect
+D/ViewRootImplExtImpl(18490): wrapConfigInfoIntoFlags rotation=0, smallestScreenWidthDp=361, relayoutAsync=false, flags=0, newFlags=23658496, residentWS=false, title=com.example.voicevibe/com.example.voicevibe.MainActivity
+D/VRI[MainActivity](18490): relayoutWindow result, sizeChanged:false, surfaceControlChanged:true, transformHintChanged:false, mSurfaceSize:Point(1264, 2780), mLastSurfaceSize:Point(1264, 2780), mWidth:1264, mHeight:2780, requestedWidth:1264, requestedHeight:2780, transformHint:0, installOrientation:0, displayRotation:0, isSurfaceValid:false, attr.flag:-2122252032, tmpFrames:ClientWindowFrames{frame=[0,0][1264,2780] display=[0,0][1264,2780] parentFrame=[0,0][0,0]}, relayoutAsync:false, mSyncSeqId:0
+W/ample.voicevibe(18490): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~zrq_IiktjULc_7KlwxMrOA==/com.google.android.marvin.talkback-EWTicgjv7FdtgnT4dqiHDQ==/base.apk' with 1 weak references
+D/VRI[MainActivity](18490): dispatchAppVisibility visible:false
+W/ample.voicevibe(18490): ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~zrq_IiktjULc_7KlwxMrOA==/com.google.android.marvin.talkback-EWTicgjv7FdtgnT4dqiHDQ==/split_config.arm64_v8a.apk' with 1 weak references
+D/OplusScrollToTopManager(18490): com.example.voicevibe/com.example.voicevibe.MainActivity,This com.android.internal.policy.DecorView{505f374 I.E...... R.....ID 0,0-1264,2780 aid=0 alpha=1.0 viewInfo = }[MainActivity] change focus to false
+Lost connection to device.

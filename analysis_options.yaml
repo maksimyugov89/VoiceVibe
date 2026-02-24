@@ -1,0 +1,23 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    avoid_print: true
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+  errors:
+    missing_required_param: error
+    invalid_use_of_protected_member: error
+
+  language:
+    strict-casts: true
+    strict-raw-types: true
+
+cspell:
+  words:
+    - VoiceVibe

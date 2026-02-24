@@ -1,0 +1,68 @@
+name: voicevibe
+description: A voice notes app with speech-to-text, calendar, edit, and export.
+version: 1.0.0+2
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  record: ^6.1.1
+  path_provider: ^2.1.0
+  record_platform_interface: ^1.4.0
+  permission_handler: ^11.0.0
+  table_calendar: ^3.2.0
+  share_plus: ^11.0.0
+  lottie: ^2.7.0
+  logger: ^2.0.0
+  intl: ^0.20.2
+  mockito: ^5.4.4
+  build_runner: ^2.4.9
+  shared_preferences: ^2.2.2
+  vosk_flutter_2: ^1.0.5
+  just_audio: ^0.9.33
+  audio_session: ^0.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.4
+  file: ^7.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash/splash_light.png
+    - assets/splash/splash_dark.png
+    - assets/icons/app_icon.png
+    - assets/lottie/splash_animation.json
+   # Русская модель
+    - assets/model_ru/
+    - assets/model_ru/am/
+    - assets/model_ru/conf/
+    - assets/model_ru/graph/
+    - assets/model_ru/ivector/
+    # Английская модель (ДОБАВЬТЕ ЭТИ СТРОКИ)
+    - assets/model_en/
+    - assets/model_en/am/
+    - assets/model_en/conf/
+    - assets/model_en/graph/
+    - assets/model_en/ivector/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#2F2E33"
+  adaptive_icon_foreground: "assets/icons/app_icon.png"
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/splash/splash_light.png
+  color_dark: "#121212"
+  image_dark: assets/splash/splash_dark.png
+  android: true
+  ios: true

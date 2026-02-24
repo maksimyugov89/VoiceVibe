@@ -1,0 +1,62 @@
+import com.android.build.gradle.BaseExtension
+import org.gradle.api.Project
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.4.1")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23")
+        
+    }
+}
+
+allprojects {
+    configurations.all {
+        resolutionStrategy {
+            
+        }
+    }
+    repositories {
+        google()
+        mavenCentral()
+        
+    }
+}
+
+val newBuildDir: Directory = rootProject.layout.buildDirectory.dir("../../build").get()
+rootProject.layout.buildDirectory.set(newBuildDir)
+
+subprojects {
+    val newSubprojectBuildDir: Directory = newBuildDir.dir(project.name)
+    project.layout.buildDirectory.set(newSubprojectBuildDir)
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
+}
+
+tasks.register<Delete>("cleanBuildCache") {
+    delete(fileTree(gradle.gradleUserHomeDir) { include("caches/**") })
+    delete(fileTree(projectDir) { include("build/**") })
+}
+
+subprojects {
+    plugins.withId("com.android.library") {
+        extensions.configure(BaseExtension::class.java) {
+            if (namespace == null) {
+                namespace = group.toString()
+            }
+        }
+    }
+    plugins.withId("com.android.application") {
+        extensions.configure(BaseExtension::class.java) {
+            if (namespace == null) {
+                namespace = group.toString()
+            }
+        }
+    }
+}
