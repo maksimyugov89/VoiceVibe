@@ -1,4 +1,5 @@
-# VoiceVibe
+#  <img width="1024" height="1024" alt="app_icon" src="https://github.com/user-attachments/assets/1fc85214-3e02-426f-ba3b-a8efbf7f6bfc" />
+VoiceVibe
 
 VoiceVibe — это кроссплатформенное Flutter‑приложение для **голосовых заметок с распознаванием речи**.  
 Оно позволяет быстро записывать голос, автоматически превращать его в текст, просматривать заметки в ленте и календаре, редактировать и экспортировать.
@@ -43,34 +44,23 @@ VoiceVibe — это кроссплатформенное Flutter‑прилож
   - Обработка ошибок загрузки моделей Vosk и чтения `AssetManifest.json`.
  
 ## Скриншоты
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/c27b955b-f91f-4e95-9757-f3067d743678" width="250" />
+  <img src="https://github.com/user-attachments/assets/80f2fbdf-4364-4a41-89a7-21d807bf4c44" width="250" />
+  <img src="https://github.com/user-attachments/assets/879e11d8-6235-4be6-bbf2-d90a5adbfae3" width="250" />
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/58481839-acf5-4989-84c2-357041c31f8f" width="250" />
+  <img src="https://github.com/user-attachments/assets/76d9113f-265c-4b27-9eaf-91ac6e6d44c0" width="250" />
+  <img src="https://github.com/user-attachments/assets/ab192383-d829-4173-b6fa-0133d4f9f699" width="250" />
+</p>
 
-<img src="https://github.com/user-attachments/assets/1557feb7-54cc-4e06-811c-2244eb7e78dd" alt="screenshot 1" width="260" />
-<img src="https://github.com/user-attachments/assets/990d0a51-cc17-40bd-9ec7-0d586217abd0" alt="screenshot 2" width="260" />
-<img src="https://github.com/user-attachments/assets/4fb876cf-8404-4f9e-acb4-7d2a94347a66" alt="screenshot 3" width="260" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/78322c57-7bbc-4dc4-a789-f652dbd10d31" width="250" />
+  <img src="https://github.com/user-attachments/assets/5d150b22-c69a-454d-afb9-1c84a59eaf16" width="250" />
+</p>
 
-<img src="https://github.com/user-attachments/assets/4897d670-5412-438c-acc5-04aec43e348d" alt="screenshot 4" width="260" />
-<img src="https://github.com/user-attachments/assets/8ba99fb5-6478-4b07-bd3a-3859816eda12" alt="screenshot 5" width="260" />
-<img src="https://github.com/user-attachments/assets/75064a58-9e15-4eb4-afbe-f7fd912e47b2" alt="screenshot 6" width="260" />
-
-<img src="https://github.com/user-attachments/assets/78434254-7de0-4ad9-9035-8872748f5b36" alt="screenshot 7" width="260" />
-<img src="https://github.com/user-attachments/assets/e541aa4d-8a71-449e-92df-6e8a73453c76" alt="screenshot 8" width="260" />
-<img src="https://github.com/user-attachments/assets/f31a47eb-6df5-445d-956d-02964a796707" alt="screenshot 9" width="260" />
-
-<img src="https://github.com/user-attachments/assets/0b5c2ef9-0c6c-4b77-be66-aecef092f532" alt="screenshot 10" width="260" />
-<img src="https://github.com/user-attachments/assets/91bab22a-1e87-46f6-b4e7-f784ad45948f" alt="screenshot 11" width="260" />
-<img src="https://github.com/user-attachments/assets/3357dc08-5c4e-4ba9-96b3-51f5cdbb3e5e" alt="screenshot 12" width="260" />
-
-<img src="https://github.com/user-attachments/assets/e315cc54-151d-4575-9694-ad72adea4023" alt="screenshot 13" width="260" />
-<img src="https://github.com/user-attachments/assets/9f7a60f5-06f3-4463-8c10-0ce7dec9023a" alt="screenshot 14" width="260" />
-<img src="https://github.com/user-attachments/assets/9b30e77a-e956-4fbe-8c37-ee19737e5688" alt="screenshot 15" width="260" />
-
-<img src="https://github.com/user-attachments/assets/8d63b028-fa47-4c2b-8418-4c1d6b53db95" alt="screenshot 16" width="260" />
-<img src="https://github.com/user-attachments/assets/62f35f15-c702-4154-aec7-b6a9c2954e89" alt="screenshot 17" width="260" />
-<img src="https://github.com/user-attachments/assets/c59818c2-d22b-47b1-9f58-e49c6972c620" alt="screenshot 18" width="260" />
-
-</div>
 ## Архитектура
 
 - `lib/main.dart`
